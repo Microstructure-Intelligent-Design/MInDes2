@@ -5,7 +5,7 @@
 #include <random>
 #include <sstream>
 #define SYS_EPSILON (0.000001f)
-// #define MINDES_INIT_EXPORTS
+#define MINDES_INIT_EXPORTS
 #ifdef MINDES_INIT_EXPORTS
 #define MINDES_INIT_API __declspec(dllexport)
 #else

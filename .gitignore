@@ -1,5 +1,4 @@
 x64
-libmindes-init/
 !MInDes/lib/x64
 !libmindes-init/lib/x64
 .vs
@@ -9,7 +8,3 @@ libmindes-init/
 *.o
 *.in
 MInDes/MInDes/_init
-MInDes/MInDes/src/modules/preprocess_modules/**/*.cpp
-MInDes/MInDes/src/modules/input_modules/**/*.cpp
-MInDes/MInDes/src/modules/model_modules/**/*.cpp
-MInDes/MInDes/src/modules/postprocess_modules/**/*.cpp
