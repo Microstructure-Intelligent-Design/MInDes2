@@ -15,5 +15,11 @@ Dr. Qi Huang  - qihuang0908@163.com
 ## Developers
 **MInDes was developed over many years by the following developers. If you use this software, please cite their work:**
 1. Qi Huang  
-**Huang, Qi**, et al. "Phase-field simulation for voltage profile of LixSn nanoparticle during lithiation/delithiation." *Computational Materials Science* 220 (2023): 112047.
-**Huang, Qi**, et al. "Multiphase transformation and mechanical analysis of polycrystalline Cu𝑥Li𝑦Sn nanoparticle during lithiation via phase diagram-guided phase-field approach." *Electrochimica Acta* 220 (2023): 112047.
+**Huang, Qi**, et al. "Phase-field simulation for voltage profile of LixSn nanoparticle during lithiation/delithiation" *Computational Materials Science* 220 (2023): 112047.
+
+**Huang, Qi***, et al. "Multiphase transformation and mechanical analysis of polycrystalline CuxLiySn nanoparticle during lithiation via phase diagram-guided phase-field approach" *Electrochimica Acta* 495 (2024): 144471.
+
+Zhixuan Zhang, ..., **Huang, Qi***, et al. "Multiscale phase-field simulation framework for spinodal decomposition behavior in composite carbide ceramics" *Journal of Materials Science & Technology* 246 (2025): 58-75.
+
+Xi Liu, **Huang, Qi***, et al. "Phase-field simulation of grain coarsening and Mo-induced inhibition in NbC-Ni cermets during liquid phase sintering" *Journal of the American Ceramic Society* 108 (2025): e70075.
+
