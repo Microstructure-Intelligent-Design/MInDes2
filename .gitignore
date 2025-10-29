@@ -1,7 +1,6 @@
 x64
 libmindes-init/
-!MInDes/lib/x64
-!libmindes-init/lib/x64
+!MInDes/MInDes/lib/x64
 .vs
 *.txt
 *.vts
