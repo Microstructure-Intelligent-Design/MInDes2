@@ -8,3 +8,4 @@ x64
 *.o
 *.in
 MInDes/MInDes/_init
+MInDes/MInDes/*.dll
