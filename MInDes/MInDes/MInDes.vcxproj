@@ -82,7 +82,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Debug;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)MInDes\lib\x64;$(SolutionDir)MInDes\lib\x64\Debug;$(SolutionDir)MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libmindes-init.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -106,7 +106,7 @@ xcopy "$(SolutionDir)MInDes\lib\x64\Debug\libmindes-init.dll" "$(SolutionDir)MIn
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Debug;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)MInDes\lib\x64;$(SolutionDir)MInDes\lib\x64\Debug;$(SolutionDir)MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libmindes-init.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -128,7 +128,7 @@ xcopy "$(SolutionDir)MInDes\lib\x64\Release\libmindes-init.dll" "$(SolutionDir)M
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Debug;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)MInDes\lib\x64;$(SolutionDir)MInDes\lib\x64\Debug;$(SolutionDir)MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libmindes-init.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -152,7 +152,7 @@ xcopy "$(SolutionDir)MInDes\lib\x64\Debug\libmindes-init.dll" "$(SolutionDir)MIn
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Debug;D:\program\GITHUB\MInDes_Ver1_DEV\MInDes\MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)MInDes\lib\x64;$(SolutionDir)MInDes\lib\x64\Debug;$(SolutionDir)MInDes\lib\x64\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libmindes-init.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -165,6 +165,9 @@ xcopy "$(SolutionDir)MInDes\lib\x64\Release\libmindes-init.dll" "$(SolutionDir)M
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\modules\base\whereami.c" />
+    <ClCompile Include="src\modules\preprocess_modules\MicrostructureInit\Bmp24Structure.cpp" />
+    <ClCompile Include="src\modules\preprocess_modules\MicrostructureInit\PorousStructure.cpp" />
+    <ClCompile Include="src\modules\preprocess_modules\MicrostructureInit\VoronoiStructure.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MainIterator.h" />

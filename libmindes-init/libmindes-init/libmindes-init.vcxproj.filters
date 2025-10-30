@@ -15,31 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\Bmp24Structure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\GeometryStructure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\PorousStructure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\stb_image.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\VoronoiStructure.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\Bmp24Structure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\PorousStructure.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\VoronoiStructure.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\Bmp24Structure.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\Bmp24Structure.h">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\GeometryStructure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\PorousStructure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\stb_image.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MInDes\MInDes\src\modules\preprocess_modules\MicrostructureInit\VoronoiStructure.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
